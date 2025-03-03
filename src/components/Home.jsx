@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "/Users/iceberg/cricshub/src/cricshub.png";
-import playStoreLogo from "/Users/iceberg/cricshub/src/playstore.png";
-import appStoreLogo from "/Users/iceberg/cricshub/src/appstore.png";
+import logo from "../cricshub.png";
+import playStoreLogo from "../playstore.png";
+import appStoreLogo from "../appstore.png";
 
 function Home() {
   return (
