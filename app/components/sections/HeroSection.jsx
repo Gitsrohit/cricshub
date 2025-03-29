@@ -1,5 +1,4 @@
 "use client";
-import Head from "next/head";
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -51,13 +50,6 @@ export default function HeroSection() {
     };
 
     return (
-        <>
-        <Head>
-        <title>CricsHub</title>
-        <link rel="icon" href="/cricshub.png" />
-        {/* You can also use PNG, SVG, etc. */}
-        {/* <link rel="icon" type="image/png" href="/my-icon.png" /> */}
-      </Head>
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900 px-4 py-12 sm:py-16">
             {/* Background elements */}
             <div className="absolute inset-0 overflow-hidden">
@@ -512,13 +504,13 @@ export default function HeroSection() {
                     delay: 0.5
                 }}
             >
-                <Image
+                {/* <Image
                     src="/cricket-stumps.png"
                     alt="Cricket Stumps"
                     width={48}
                     height={48}
                     className="w-full h-full drop-shadow-[0_0_8px_rgba(56,182,255,0.4)]"
-                />
+                /> */}
             </motion.div>
 
             {/* Stats counter animation */}
@@ -558,6 +550,5 @@ export default function HeroSection() {
                 </motion.div>
             </div>
         </section>
-        </>
     );
 }
