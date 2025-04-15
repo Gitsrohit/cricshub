@@ -7,11 +7,11 @@ export default function Footer() {
             <div className="space-y-6">
               <div className="flex items-center">
                 <div className="w-10 h-10 relative mr-3">
-                  <img
-                    src="/cricshub.png"
+                  {/* <img
+                    // src="/cricshub.png"
                     alt="CricHub Logo"
                     className="object-contain"
-                  />
+                  /> */}
                 </div>
                 <span className="text-2xl font-bold text-white">CricHub</span>
               </div>
